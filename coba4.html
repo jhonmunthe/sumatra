@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumatra - Tugas Cloud Computing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="module" src="firebaseauth.js"></script>
+
+</head>
+<body>
+    <!-- Login Section -->
+    <section class="login-container" id="login-container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form onsubmit="return login();">
+                <input type="text" name="username" id="username" placeholder="Username" required>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#">Sign up here</a></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>apalahhh</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Hi, we are Sumatra</h1>
+                <h2>Frontend Developer</h2>
+                <p>Ini merupakan contoh salah satu tugas Cloud Computing kelompok kami.</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Hire Us</a>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="51BMoOVxlxL.jpg" alt="Spiderman">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+ <!-- About Section -->
+ <section id="about">
+    <div class="container">
+        <h2>Meet Our Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="21971059104_PAS_FOTO_1 (1).jpg" alt="Jhon Alvrian Munthe">
+                <h3>Jhon Alvrian Munthe</h3>
+                <p>Position: Frontend Developer</p>
+                <p>Email: jhonmunthe25@gmail.com</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/save.screame.17/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/jhonmunthe_/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jhon-alvrian-munthe-5b725a2a3/" target="_blank">
+                        <img src="circle-linkedin-512.webp" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Gambar WhatsApp 2024-10-18 pukul 11.11.35_47a38903.jpg" alt="Andrew Kacaribu">
+                <h3>Andrew Kacaribu</h3>
+                <p>Position: Backend Developer</p>
+                <p>Email: andrewkacaribu8@gmail.com</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/save.screame.17/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/jhonmunthe_/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jhon-alvrian-munthe-5b725a2a3/" target="_blank">
+                        <img src="circle-linkedin-512.webp" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Gambar WhatsApp 2024-10-18 pukul 11.14.30_dc1a0dab.jpg" alt="M. Rukshah A. R">
+                <h3>M. Rukshah A. R</h3>
+                <p>Position: UI/UX Designer</p>
+                <p>Email: m.rukshah1666@gmail.com</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/save.screame.17/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/jhonmunthe_/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jhon-alvrian-munthe-5b725a2a3/" target="_blank">
+                        <img src="circle-linkedin-512.webp" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Gambar WhatsApp 2024-10-18 pukul 11.10.21_52bf75b8.jpg" alt="Noval Tri Ananda Rizki">
+                <h3>Noval Tri Ananda Rizki</h3>
+                <p>Position: Project Manager</p>
+                <p>Email: novaltriananda12@gmail.com</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/save.screame.17/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/jhonmunthe_/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jhon-alvrian-munthe-5
+
+    <footer>
+        <p>&copy; 2024 Sumatra Team. All rights reserved.</p>
+    </footer>
