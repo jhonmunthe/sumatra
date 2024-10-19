@@ -83,31 +83,31 @@ body {
   }
   
   nav ul {
-    list-style: none; /* Menghapus bullet points */
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Menjadikan daftar sebagai flex container */
-    justify-content: flex-end; /* Memindahkan item ke kanan */
+    display: flex; 
+    justify-content: flex-end;
 }
 
 nav ul li {
-    margin-left: 20px; /* Menambahkan jarak antar item */
+    margin-left: 20px; 
 }
 
 nav ul li a {
-    text-decoration: none; /* Menghapus garis bawah pada link */
-    color: #000; /* Warna teks hitam */
+    text-decoration: none; 
+    color: #000; 
 }
 .logo h1 {
     position: absolute;
-    top: 0; /* Jarak dari atas halaman */
-    left: 0; /* Jarak dari kiri halaman */
-    margin: 0; /* Menghapus margin bawaan */
-    padding: 10px; /* Memberi sedikit ruang antara teks dan tepi halaman */
-    font-size: 24px; /* Ukuran font */
-    font-weight: bold; /* Menjadikan teks tebal */
+    top: 0; 
+    left: 0; 
+    margin: 0; 
+    padding: 10px; 
+    font-size: 24px; 
+    font-weight: bold; 
 }
-/* Bagian untuk About */
+
 #about {
     padding: 50px 0;
     background-color: #f9f9f9;
@@ -178,7 +178,7 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
-    display: none; /* Awalnya tersembunyi */
+    display: none; 
 }
 
 header .container {
@@ -212,7 +212,7 @@ header nav ul li a {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: none; /* Awalnya tersembunyi */
+    display: none; 
 }
 
 .hero-text h1 {
@@ -235,7 +235,7 @@ header nav ul li a {
 
 #about {
     padding: 50px;
-    display: none; /* Awalnya tersembunyi */
+    display: none; 
 }
 
 .team-members {
@@ -273,10 +273,10 @@ footer {
     text-align: center;
     background-color: #333;
     color: #fff;
-    display: none; /* Awalnya tersembunyi */
+    display: none; 
 }
 
-/* Login form styles */
+
 .login-container {
     display: flex;
     justify-content: center;
